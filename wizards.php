@@ -5,9 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="stylewizards.css">
 </head>
 <body>
-	<?php include ("header.php")
+	<?php include ("header.php");
 	?>
-	<?php include ("sommaire.php")
+	<?php include ("sommaire.php");
 	?>
 </body>
 <aside>
