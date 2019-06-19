@@ -1,0 +1,339 @@
+@font-face {
+    font-family: 'Dayrom';
+    src: url('polices/dayrom.eot');
+    src: url('polices/dayrom.eot?#iefix') format('embedded-opentype'),
+         url('polices/dayrom.woff') format('woff'),
+         url('polices/dayrom.ttf') format('truetype'),
+         url('polices/dayrom.svg#Dayrom') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-image: url(images/fondrouge.jpg) ;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+
+}
+
+header {
+	background-color: white;
+	display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 30px;
+}
+body {
+    background-color: #F5F5DC;
+    padding: 0px 0;
+    margin: 0;
+
+}
+    /* Définition des styles Principaux */
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+h4{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+/*Header*/
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 30px;
+}
+header h4
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    color:black;
+}
+
+h4{
+    display:black;
+}
+
+
+#logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+
+}
+
+#logo img {
+    width:  60px;
+    height: 60px;
+}
+
+
+ul {
+    
+    list-style: none; /* enlever les pointillées */
+    display: flex; /*Aligner horizontalement */
+
+}
+
+ .nav {
+    text-decoration: none;
+    margin-left:90px;
+    margin-right: 10px;
+    color: grey;
+    padding-bottom: 3px;
+}
+
+nav a:hover /*Bordure colorée en bas du lien quand je met la souris */{
+    color: black; 
+    border-bottom: 3px solid black; 
+}
+                                        /*Div titres*/
+#lestitres{
+    display: flex;
+    border-radius: 2px;
+    background: url('images/fondbleu.jpg') no-repeat center; 
+
+    
+    box-shadow: 3px 4px 4px black;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    padding: 1px;
+}
+h1 {
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 20px;
+}
+#Fond_bleu {
+color: white;
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content:
+margin:10px 10px ;
+}
+.soustitre {
+    text-align: right;
+}
+
+
+/*Bloc du Milieu */
+
+aside{
+    display: flex;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+
+.lycee {
+    background-color: grey; /*couleur du fond */
+    box-shadow: 0px 2px 5px black;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.la {
+    padding:5px 5px 5px 5px; 
+    color: white; /*couleur du texte : blanc */
+    text-decoration: none;
+
+}
+.lai {
+    padding:5px;
+}
+
+
+
+.identifiant {
+    background-color: white;
+    box-shadow: 0px 2px 5px black;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    width: 450px;
+    font-size: 1.0em;
+}
+
+
+.milieudepage {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 30px;
+    position: relative;
+
+}
+
+
+.bouton {
+    text-align:center;
+    color:white;
+    text-decoration: none;
+    padding: 8px 10px ;
+    border: 2px solid;
+    border-radius: 7px;
+    border-color: red;
+    background-color: red;
+    margin-top: 5px;
+    
+}
+
+input:hover /*Bordure colorée en bas du lien quand je met la souris */{
+    color: black; 
+    border-bottom: 3px solid black; 
+}
+
+h4:hover /*Bordure colorée en bas du lien quand je met la souris */{
+    color: black; 
+    border-bottom: 3px solid black; 
+}
+
+.bonjour {
+    font-size: 1.5em;
+
+}
+
+.head input {
+    position: relative;
+    border:none;
+    border-bottom: 2px solid #ccc;
+}
+.head {
+    padding: 25px 50px 25px 50px;
+}
+
+.wizards {
+    position: relative;
+    margin: auto;
+    padding: 10px;
+
+}
+    /*le menu du spmmaire*/
+.somm1 {
+    display: flex;
+    margin: 10px auto 200px
+    auto;
+}
+
+.sommaire {
+   font-family: 'source code pro',serif;
+   width: 70%;
+   background-color: rgba(220,220,220, 0.15);
+   background-size: cover;
+   margin: auto;
+   box-shadow: 3px 4px 4px black;
+}
+
+.sommaire > ul {
+    padding: 0px;
+    margin: auto;
+}
+
+.sommaire > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sommaire > ul > li {
+    float: center ;
+    position: relative;
+}
+.sommaire > ul > li > a{
+    padding: 20px 40px;
+    color: #FFF
+}
+.sommaire >li {
+    list-style-type: none;
+    color: white;
+}
+
+.submenu {
+    display: none;
+}
+
+.sommaire a{
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.sommaire li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%
+    left:0px;
+    padding: 0px;
+    z-index: 1000;
+
+}
+
+.submenu li{
+    border-bottom: 1px solid #CCC
+    background-color:white;  
+}
+
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: black;
+    width:270px;
+    background-color: white;
+
+}
+
+.menu1:hover{
+    border-top: 5px solid #888;
+    background-color: rgba(220,220,220, 0.15);
+}
+
+.menu2:hover{
+    border-top: 5px solid #888;
+    background-color: rgba(220,220,220, 0.15);
+}
+
+.menu3:hover{
+    border-top: 5px solid #888;
+    background-color: rgba(220,220,220, 0.15);
+}
+
+.menu4:hover{
+    border-top: 5px solid #888;
+    background-color: rgba(220,220,220, 0.15);
+}
+
+    /*Bas de la page*/
+footer {
+    background-color:black;
+    padding: 10px;
+}
+
+.basdepage {
+    color: white;
+    align-items: flex-end;
+}
+
+.basdepage li {
+    margin-right: 10px;
+}
+
+.basdepage li:last-child {
+    margin-right: 0;
+}

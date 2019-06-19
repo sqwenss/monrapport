@@ -1,0 +1,91 @@
+ /*le menu du spmmaire*/
+.somm1 {
+    display: flex;
+}
+
+.sommaire {
+   font-family: 'source code pro',serif;
+   width: 70%;
+   background-color: rgba(220,220,220, 0.15);
+   background-size: cover;
+   margin: auto;
+   box-shadow: 3px 4px 4px black;
+}
+
+.sommaire > ul {
+    padding: 0px;
+    margin: auto;
+}
+
+.sommaire > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.sommaire > ul > li {
+    float: center ;
+    position: relative;
+}
+.sommaire > ul > li > a{
+    padding: 20px 40px;
+    color: white;
+}
+.sommaire >li {
+    list-style-type: none;
+    color: black;
+}
+
+.submenu {
+    display: none;
+}
+
+.sommaire a{
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.sommaire li:hover .submenu{
+    display: inline-block;
+    position: absolute;
+    top: 100%
+    left:0px;
+    padding: 0px;
+    z-index: 1000;
+
+}
+
+.submenu li{
+    border-bottom: 1px solid #CCC
+    background-color:black;  
+}
+
+.submenu li a{
+    padding: 15px 30px;
+    font-size: 13px;
+    color: black;
+    width:270px;
+    background-color: white;
+
+}
+
+.menu1:hover{
+    border-top: 5px solid #888;
+    background-color: rgba(220,220,220, 0.15);
+}
+
+.menu2:hover{
+    border-top: 5px solid #888;
+    background-color: rgba(220,220,220, 0.15);
+}
+
+.menu3:hover{
+    border-top: 5px solid #888;
+    background-color: rgba(220,220,220, 0.15);
+}
+
+.menu4:hover{
+    border-top: 5px solid #888;
+    background-color: rgba(220,220,220, 0.15);
+}

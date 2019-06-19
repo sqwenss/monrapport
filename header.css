@@ -1,0 +1,117 @@
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 30px;
+}
+body {
+    background-color: #F5F5DC;
+    padding: 0px 0;
+    margin: 0;
+
+}
+    /* Définition des styles Principaux */
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+h4{
+    font-family: Dayrom, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+/*Header*/
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 0 30px;
+}
+header h4
+{
+    font-family: 'BallparkWeiner', serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    color:black;
+}
+
+h4{
+    display:black;
+}
+
+
+#logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+
+}
+
+#logo img {
+    width:  60px;
+    height: 60px;
+}
+
+
+ul {
+    
+    list-style: none; /* enlever les pointillées */
+    display: flex; /*Aligner horizontalement */
+
+}
+
+ .nav {
+    text-decoration: none;
+    margin-left:90px;
+    margin-right: 10px;
+    color: grey;
+    padding-bottom: 3px;
+}
+
+nav a:hover /*Bordure colorée en bas du lien quand je met la souris */{
+    color: black; 
+    border-bottom: 3px solid black; 
+}
+h4:hover /*Bordure colorée en bas du lien quand je met la souris */{
+    color: black; 
+    border-bottom: 3px solid black; 
+}
+
+                                        /*Div titres*/
+#lestitres{
+    display: flex;
+    border-radius: 2px;
+    background: url('images/fondbleu.jpg') no-repeat center; 
+
+    
+    box-shadow: 3px 4px 4px black;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    padding: 1px;
+}
+h1 {
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 20px;
+}
+#Fond_bleu {
+color: white;
+align-items: center;
+display: flex;
+flex-direction: column;
+justify-content:
+margin:10px 10px ;
+}
+.soustitre {
+    text-align: right;
+}
+
